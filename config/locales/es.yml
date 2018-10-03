@@ -2,12 +2,15 @@ es:
   activerecord:
     errors:
       messages:
-        blank: "No puede estar en blanco"
-        invalid: "El campo es invalido"
+        blank: "no puede estar en blanco"
+        invalid: "el campo es invalido"
+        required: "invalido"
 
     attributes:
       user:
         name: "Nombre"
         password: "Contraseña"
+        user: "Usuario"
       product:
         name: "Nombre"
+        user: "Usuario"
