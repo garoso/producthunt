@@ -1,0 +1,13 @@
+es:
+  activerecord:
+    errors:
+      messages:
+        blank: "No puede estar en blanco"
+        invalid: "El campo es invalido"
+
+    attributes:
+      user:
+        name: "Nombre"
+        password: "Contraseña"
+      product:
+        name: "Nombre"
